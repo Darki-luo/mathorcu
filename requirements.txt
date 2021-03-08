@@ -1,0 +1,10 @@
+albumentations==0.5.2
+numpy
+opencv-python==4.4.0.46
+paddlepaddle-gpu==2.0.0rc1
+paddleseg==2.0.0rc0
+pandas==1.1.4
+tifffile
+tqdm
+visualdl==2.1.0
+

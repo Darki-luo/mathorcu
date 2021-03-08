@@ -1,0 +1,42 @@
+init:
+  vdl_dir: "vdl"
+  result: "result"
+  num_classes: 2
+
+
+train:
+  root_path: 'dataset'
+  train_list: 'train_list.txt'
+  model: 'sate'
+  epoch: 200
+  lr: 0.0001
+  batchsz: 32
+  num_workers: 6
+  save_freq: 35
+  sz: 64
+  mean: [90.39095958, 89.36796833, 85.25276458]
+  std: [3.09639721, 2.50642894, 2.7135403]
+  custom:
+    type: False
+    mean: [100.05131675, 92.13855124, 93.49690411]
+    std: [4.96087838, 3.48218663, 4.07334118]
+
+
+infer:
+  root_path: 'dataset'
+  path: 'infer'
+  model: ['sate']
+  sz: 64
+  batchsz: 40
+  num_workers: 6
+  color: "color"
+  lab: "lab"
+  gray: "gray"
+  infer_size: [500,600]
+  scale: 1
+  palette: [[0,0,0],[255,255,255]]
+
+
+
+
+

@@ -1,0 +1,8 @@
+image/Data1.tif label/Data1_reference.tif
+image/Data2.tif label/Data2_reference.tif
+image/Data3.tif label/Data3_reference.tif
+image/Data4.tif label/Data4_reference.tif
+image/Data5.tif label/Data5_reference.tif
+image/Data6.tif label/Data6_reference.tif
+image/Data7.tif label/Data7_reference.tif
+image/Data8.tif label/Data8_reference.tif
